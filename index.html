@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" dir="ltr">
+  <meta charset="utf-8">
+  <title>SHIPT</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"
+</head>
+
+<style media="screen">
+  body {background-color: yellow;
+  }
+  .all {
+    margin: 20px;
+  }
+</style>
+
+<body class="all">
+  <nav id="navigation-buttons" role="group">
+    <button style="color: red;" type="button" class="btn btn-light btn-lg">HOME<img src="Home.png"></button>
+    <button style="color: red;" type="button" class="btn btn-light btn-lg">FAQs<img src="FAQs.png"></button>
+    <button style="color: red;" type="button" class="btn btn-light btn-lg">HELP<img src="Help.png"></button>
+    <button style="color: red;" type="button" class="btn btn-light btn-lg">CONTACT US<img src="Contact Us.png"></button>
+    <button style="color: red;" type="button" class="btn btn-light btn-lg">ABOUT US<img src="About Us.png"></button>
+    <img src="Magnifying Glass.png" class="rounded float-right">
+    <input type=”text” placeholder="Search" class="rounded float-right" required>
+    <hr></hr>
+  </nav>
+
+  <header>
+		<h1 style="color: red;">Edit Your Profile<img src="Person.png"><img src="Picture.png" class="rounded float-right"></h1><br/>
+  </header>
+
+  <section id="personal-information">
+    <article id="name">
+      <h3>NAME: <input type=”text” placeholder="Last Name" required>
+            <input type=”text” placeholder="M.I." required>
+            <input type=”text” placeholder="First Name" required></h3><br/>
+    </article>
+    <article id="birthdate">
+      <h3>BIRTHDATE: <input type=”text” placeholder="Month" required>
+               <input type=”text” placeholder="Day" required>
+               <input type=”text” placeholder="Year" required></h3><br/>
+    </article>
+    <article id="choose-file">
+      <input type="file" id="img" name="img" accept="image/*" class="rounded float-right" required>
+    </article>
+    <article id="address">
+      <h3>ADDRESS: <input type=”text” placeholder="House Number" required>
+               <input type=”text” placeholder="Street" required>
+               <input type=”text” placeholder="Municipality" required><br/>
+               <input type=”text” placeholder="City" required>
+               <input type=”text” placeholder="Province" required>
+               <input type=”text” placeholder="Country" required>
+               <input type=”text” placeholder="Zip Code" required></h3><br/>
+    </article>
+    <article id="email-address">
+      <h3>EMAIL ADDRESS: <input type=”text” placeholder="example@example.com" required></h3><br/>
+    </article>
+    <article id="mobile-number">
+      <h3>MOBILE NUMBER: <input type=”text” placeholder="09*********" required></h3><br/>
+    </article>
+    <article id="email-address">
+      <h3>DESCRIPTION: <input type=”text” placeholder="Tell us about yourself" required><br/>
+      (ABOUT YOU)</h3>
+    </article>
+  </section>
+
+  <section>
+    <center>
+    <button style="color: yellow;" type="button" class="btn btn-danger">SUBMIT</button>
+    </center>
+  </section>
+</body>
+</html>
